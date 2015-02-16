@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAA5E6FA1A91A9690010BB30 /* libVTMobileSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA5E6F91A91A9690010BB30 /* libVTMobileSDK.a */; };
+		DAA5E7281A91AB7E0010BB30 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA5E7111A91AB7E0010BB30 /* JSONModel.m */; };
+		DAA5E7291A91AB7E0010BB30 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA5E7131A91AB7E0010BB30 /* JSONModelArray.m */; };
+		DAA5E72A1A91AB7E0010BB30 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA5E7151A91AB7E0010BB30 /* JSONModelClassProperty.m */; };
+		DAA5E72B1A91AB7E0010BB30 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA5E7171A91AB7E0010BB30 /* JSONModelError.m */; };
+		DAA5E72C1A91AB7E0010BB30 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA5E71A1A91AB7E0010BB30 /* NSArray+JSONModel.m */; };
+		DAA5E72D1A91AB7E0010BB30 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA5E71E1A91AB7E0010BB30 /* JSONAPI.m */; };
+		DAA5E72E1A91AB7E0010BB30 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA5E7201A91AB7E0010BB30 /* JSONHTTPClient.m */; };
+		DAA5E72F1A91AB7E0010BB30 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA5E7221A91AB7E0010BB30 /* JSONModel+networking.m */; };
+		DAA5E7301A91AB7E0010BB30 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA5E7251A91AB7E0010BB30 /* JSONKeyMapper.m */; };
+		DAA5E7311A91AB7E0010BB30 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA5E7271A91AB7E0010BB30 /* JSONValueTransformer.m */; };
+		DAA5E7331A91EC160010BB30 /* CheckoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA5E7321A91EC160010BB30 /* CheckoutController.swift */; };
+		DAA5E7371A91ED650010BB30 /* VTCheckout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA5E7361A91ED650010BB30 /* VTCheckout.swift */; };
 		DAAF36DA1A8CA83A00EB89BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF36D91A8CA83A00EB89BC /* AppDelegate.swift */; };
 		DAAF36DC1A8CA83A00EB89BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF36DB1A8CA83A00EB89BC /* ViewController.swift */; };
 		DAAF36DF1A8CA83A00EB89BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAF36DD1A8CA83A00EB89BC /* Main.storyboard */; };
 		DAAF36E11A8CA83A00EB89BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAAF36E01A8CA83A00EB89BC /* Images.xcassets */; };
 		DAAF36E41A8CA83A00EB89BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAAF36E21A8CA83A00EB89BC /* LaunchScreen.xib */; };
 		DAAF36F01A8CA83A00EB89BC /* VTMobileSDK_SampleiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF36EF1A8CA83A00EB89BC /* VTMobileSDK_SampleiOSTests.swift */; };
+		DABE1A9C1A8DF90700F29A8F /* VTItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABE1A9B1A8DF90700F29A8F /* VTItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +40,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DAA5E6F91A91A9690010BB30 /* libVTMobileSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVTMobileSDK.a; path = libs/libVTMobileSDK.a; sourceTree = "<group>"; };
+		DAA5E6FC1A91A97E0010BB30 /* VTBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTBaseRequest.h; sourceTree = "<group>"; };
+		DAA5E6FD1A91A97E0010BB30 /* VTBaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTBaseResponse.h; sourceTree = "<group>"; };
+		DAA5E6FE1A91A97E0010BB30 /* VTCardDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTCardDetails.h; sourceTree = "<group>"; };
+		DAA5E6FF1A91A97E0010BB30 /* VTChargeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTChargeRequest.h; sourceTree = "<group>"; };
+		DAA5E7001A91A97E0010BB30 /* VTChargeResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTChargeResponse.h; sourceTree = "<group>"; };
+		DAA5E7011A91A97E0010BB30 /* VTConfirmTransactionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTConfirmTransactionRequest.h; sourceTree = "<group>"; };
+		DAA5E7021A91A97E0010BB30 /* VTConfirmTransactionResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTConfirmTransactionResponse.h; sourceTree = "<group>"; };
+		DAA5E7031A91A97E0010BB30 /* VTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTConstants.h; sourceTree = "<group>"; };
+		DAA5E7041A91A97E0010BB30 /* VTGetProductResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTGetProductResponse.h; sourceTree = "<group>"; };
+		DAA5E7051A91A97E0010BB30 /* VTHttpContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTHttpContainer.h; sourceTree = "<group>"; };
+		DAA5E7061A91A97E0010BB30 /* VTMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTMobile.h; sourceTree = "<group>"; };
+		DAA5E7071A91A97E0010BB30 /* VTMobileConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTMobileConfig.h; sourceTree = "<group>"; };
+		DAA5E7081A91A97E0010BB30 /* VTProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTProduct.h; sourceTree = "<group>"; };
+		DAA5E7091A91A97E0010BB30 /* VTTokenData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTTokenData.h; sourceTree = "<group>"; };
+		DAA5E70A1A91A97E0010BB30 /* VTTokenRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTTokenRequest.h; sourceTree = "<group>"; };
+		DAA5E70B1A91A97E0010BB30 /* VTTokenResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTTokenResponse.h; sourceTree = "<group>"; };
+		DAA5E70D1A91AA320010BB30 /* VTMobileSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VTMobileSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		DAA5E7101A91AB7E0010BB30 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		DAA5E7111A91AB7E0010BB30 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		DAA5E7121A91AB7E0010BB30 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		DAA5E7131A91AB7E0010BB30 /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		DAA5E7141A91AB7E0010BB30 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		DAA5E7151A91AB7E0010BB30 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		DAA5E7161A91AB7E0010BB30 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		DAA5E7171A91AB7E0010BB30 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		DAA5E7191A91AB7E0010BB30 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		DAA5E71A1A91AB7E0010BB30 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		DAA5E71B1A91AB7E0010BB30 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		DAA5E71D1A91AB7E0010BB30 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		DAA5E71E1A91AB7E0010BB30 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		DAA5E71F1A91AB7E0010BB30 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		DAA5E7201A91AB7E0010BB30 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		DAA5E7211A91AB7E0010BB30 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		DAA5E7221A91AB7E0010BB30 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		DAA5E7241A91AB7E0010BB30 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		DAA5E7251A91AB7E0010BB30 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		DAA5E7261A91AB7E0010BB30 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		DAA5E7271A91AB7E0010BB30 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		DAA5E7321A91EC160010BB30 /* CheckoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutController.swift; sourceTree = "<group>"; };
+		DAA5E7361A91ED650010BB30 /* VTCheckout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTCheckout.swift; sourceTree = "<group>"; };
 		DAAF36D41A8CA83A00EB89BC /* VTMobileSDK-SampleiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VTMobileSDK-SampleiOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAF36D81A8CA83A00EB89BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAAF36D91A8CA83A00EB89BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +91,7 @@
 		DAAF36E91A8CA83A00EB89BC /* VTMobileSDK-SampleiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VTMobileSDK-SampleiOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAF36EE1A8CA83A00EB89BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAAF36EF1A8CA83A00EB89BC /* VTMobileSDK_SampleiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTMobileSDK_SampleiOSTests.swift; sourceTree = "<group>"; };
+		DABE1A9B1A8DF90700F29A8F /* VTItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA5E6FA1A91A9690010BB30 /* libVTMobileSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +113,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DAA5E6FB1A91A97E0010BB30 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DAA5E6FC1A91A97E0010BB30 /* VTBaseRequest.h */,
+				DAA5E6FD1A91A97E0010BB30 /* VTBaseResponse.h */,
+				DAA5E6FE1A91A97E0010BB30 /* VTCardDetails.h */,
+				DAA5E6FF1A91A97E0010BB30 /* VTChargeRequest.h */,
+				DAA5E7001A91A97E0010BB30 /* VTChargeResponse.h */,
+				DAA5E7011A91A97E0010BB30 /* VTConfirmTransactionRequest.h */,
+				DAA5E7021A91A97E0010BB30 /* VTConfirmTransactionResponse.h */,
+				DAA5E7031A91A97E0010BB30 /* VTConstants.h */,
+				DAA5E7041A91A97E0010BB30 /* VTGetProductResponse.h */,
+				DAA5E7051A91A97E0010BB30 /* VTHttpContainer.h */,
+				DAA5E7061A91A97E0010BB30 /* VTMobile.h */,
+				DAA5E7071A91A97E0010BB30 /* VTMobileConfig.h */,
+				DAA5E7081A91A97E0010BB30 /* VTProduct.h */,
+				DAA5E7091A91A97E0010BB30 /* VTTokenData.h */,
+				DAA5E70A1A91A97E0010BB30 /* VTTokenRequest.h */,
+				DAA5E70B1A91A97E0010BB30 /* VTTokenResponse.h */,
+				DAA5E70D1A91AA320010BB30 /* VTMobileSDK-Bridging-Header.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		DAA5E70E1A91AB7E0010BB30 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				DAA5E70F1A91AB7E0010BB30 /* JSONModel */,
+				DAA5E7181A91AB7E0010BB30 /* JSONModelCategories */,
+				DAA5E71B1A91AB7E0010BB30 /* JSONModelLib.h */,
+				DAA5E71C1A91AB7E0010BB30 /* JSONModelNetworking */,
+				DAA5E7231A91AB7E0010BB30 /* JSONModelTransformations */,
+			);
+			name = JSONModel;
+			path = "../../trial/JSONModel-master/JSONModel";
+			sourceTree = "<group>";
+		};
+		DAA5E70F1A91AB7E0010BB30 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				DAA5E7101A91AB7E0010BB30 /* JSONModel.h */,
+				DAA5E7111A91AB7E0010BB30 /* JSONModel.m */,
+				DAA5E7121A91AB7E0010BB30 /* JSONModelArray.h */,
+				DAA5E7131A91AB7E0010BB30 /* JSONModelArray.m */,
+				DAA5E7141A91AB7E0010BB30 /* JSONModelClassProperty.h */,
+				DAA5E7151A91AB7E0010BB30 /* JSONModelClassProperty.m */,
+				DAA5E7161A91AB7E0010BB30 /* JSONModelError.h */,
+				DAA5E7171A91AB7E0010BB30 /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		DAA5E7181A91AB7E0010BB30 /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				DAA5E7191A91AB7E0010BB30 /* NSArray+JSONModel.h */,
+				DAA5E71A1A91AB7E0010BB30 /* NSArray+JSONModel.m */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		DAA5E71C1A91AB7E0010BB30 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				DAA5E71D1A91AB7E0010BB30 /* JSONAPI.h */,
+				DAA5E71E1A91AB7E0010BB30 /* JSONAPI.m */,
+				DAA5E71F1A91AB7E0010BB30 /* JSONHTTPClient.h */,
+				DAA5E7201A91AB7E0010BB30 /* JSONHTTPClient.m */,
+				DAA5E7211A91AB7E0010BB30 /* JSONModel+networking.h */,
+				DAA5E7221A91AB7E0010BB30 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		DAA5E7231A91AB7E0010BB30 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				DAA5E7241A91AB7E0010BB30 /* JSONKeyMapper.h */,
+				DAA5E7251A91AB7E0010BB30 /* JSONKeyMapper.m */,
+				DAA5E7261A91AB7E0010BB30 /* JSONValueTransformer.h */,
+				DAA5E7271A91AB7E0010BB30 /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
 		DAAF36CB1A8CA83900EB89BC = {
 			isa = PBXGroup;
 			children = (
+				DAA5E70E1A91AB7E0010BB30 /* JSONModel */,
+				DAA5E6FB1A91A97E0010BB30 /* include */,
+				DAA5E6F91A91A9690010BB30 /* libVTMobileSDK.a */,
 				DAAF36D61A8CA83A00EB89BC /* VTMobileSDK-SampleiOS */,
 				DAAF36EC1A8CA83A00EB89BC /* VTMobileSDK-SampleiOSTests */,
 				DAAF36D51A8CA83A00EB89BC /* Products */,
@@ -77,12 +222,14 @@
 		DAAF36D61A8CA83A00EB89BC /* VTMobileSDK-SampleiOS */ = {
 			isa = PBXGroup;
 			children = (
+				DABE1A9A1A8DF8FB00F29A8F /* Model */,
 				DAAF36D91A8CA83A00EB89BC /* AppDelegate.swift */,
 				DAAF36DB1A8CA83A00EB89BC /* ViewController.swift */,
 				DAAF36DD1A8CA83A00EB89BC /* Main.storyboard */,
 				DAAF36E01A8CA83A00EB89BC /* Images.xcassets */,
 				DAAF36E21A8CA83A00EB89BC /* LaunchScreen.xib */,
 				DAAF36D71A8CA83A00EB89BC /* Supporting Files */,
+				DAA5E7321A91EC160010BB30 /* CheckoutController.swift */,
 			);
 			path = "VTMobileSDK-SampleiOS";
 			sourceTree = "<group>";
@@ -110,6 +257,15 @@
 				DAAF36EE1A8CA83A00EB89BC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DABE1A9A1A8DF8FB00F29A8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DABE1A9B1A8DF90700F29A8F /* VTItem.swift */,
+				DAA5E7361A91ED650010BB30 /* VTCheckout.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +368,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA5E72E1A91AB7E0010BB30 /* JSONHTTPClient.m in Sources */,
+				DAA5E7291A91AB7E0010BB30 /* JSONModelArray.m in Sources */,
+				DAA5E72B1A91AB7E0010BB30 /* JSONModelError.m in Sources */,
+				DAA5E72D1A91AB7E0010BB30 /* JSONAPI.m in Sources */,
+				DAA5E7311A91AB7E0010BB30 /* JSONValueTransformer.m in Sources */,
+				DAA5E7331A91EC160010BB30 /* CheckoutController.swift in Sources */,
+				DABE1A9C1A8DF90700F29A8F /* VTItem.swift in Sources */,
+				DAA5E7281A91AB7E0010BB30 /* JSONModel.m in Sources */,
+				DAA5E7371A91ED650010BB30 /* VTCheckout.swift in Sources */,
+				DAA5E7301A91AB7E0010BB30 /* JSONKeyMapper.m in Sources */,
+				DAA5E72F1A91AB7E0010BB30 /* JSONModel+networking.m in Sources */,
+				DAA5E72C1A91AB7E0010BB30 /* NSArray+JSONModel.m in Sources */,
 				DAAF36DC1A8CA83A00EB89BC /* ViewController.swift in Sources */,
 				DAAF36DA1A8CA83A00EB89BC /* AppDelegate.swift in Sources */,
+				DAA5E72A1A91AB7E0010BB30 /* JSONModelClassProperty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +509,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "VTMobileSDK-SampleiOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SOURCE_ROOT/include/VTMobileSDK-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -350,7 +524,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "VTMobileSDK-SampleiOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SOURCE_ROOT/include/VTMobileSDK-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +586,7 @@
 				DAAF36F51A8CA83A00EB89BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAAF36F61A8CA83A00EB89BC /* Build configuration list for PBXNativeTarget "VTMobileSDK-SampleiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +595,7 @@
 				DAAF36F81A8CA83A00EB89BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
